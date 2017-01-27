@@ -1,0 +1,54 @@
+        #main {
+	width:320px;
+	height: 190px;
+	z-index: 9999;
+	text-align: center;
+}
+        #header { text-align:center; border-bottom:solid 1px #b2b3b5; margin: 0 0 20px 0; }
+        fieldset {
+	border:none;
+	width:320px;
+	margin: 0px;
+	padding: 0px;
+}
+        legend { font-size:18px; margin:0px; padding:10px 0px; color:#b0232a; font-weight:bold;}
+        label { display:block; margin:15px 0 5px;}
+        input[type=text], input[type=password] {
+	width:300px;
+	padding:5px;
+	border:solid 1px #000;
+}
+        .prev, .next {
+	color:#fff;
+	text-decoration:none;
+}
+        .prev:hover, .next:hover {
+	text-decoration:none;
+	background-image: url(../images/button_circle.png);
+	color: #FFFFFF;
+}
+        .prev {
+	display: none;
+}
+        .next {
+	position: absolute;
+	top: 190px;
+	right: 127px;
+	background-image: url(../images/button_circle_off.png);
+	height: 41px;
+	width: 61px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding-top: 20px;
+}
+        #steps {
+	list-style:none;
+	width:100%;
+	overflow:hidden;
+	margin:0px;
+	padding:0px;
+	display: none;
+}
+        #steps li {font-size:54px; float:left; padding:10px; color:#b0b1b3;}
+        #steps li span {font-size:11px; display:block;}
+        #steps li.current { color:#000;}

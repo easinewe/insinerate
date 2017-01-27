@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<style type="text/css">
+body{
+margin: 0px;
+padding: 0px;	
+	}
+#bigtop {
+	width: 100%;
+	height: 500px;
+	background-color: red;
+	background-image: url(images/grid13.png);
+}
+#bigbottom {
+	width: 100%;
+	height: 1900px;
+	background-color: blue;
+}
+#services {
+	width: 100%;
+	height: 200px;
+	background-color: yellow;
+	opacity: 0.5;
+	}
+#services.fixed {
+  position: fixed;
+  top: 0;	
+	}
+#info{
+	width: 200px;
+	height: 200px;
+	position: fixed;
+	top: 50%;
+	right: 50%;
+	background: white;
+	}
+
+</style>
+</head>
+
+<body>
+<div id='bigtop'></div>
+<div id='services'></div>
+	<div id='info'>
+		<p>body.scrollTop = <span id = "bst"></span></p>
+		<p>services from top = <span id = "sfs"></span></p>
+        <p>bigbottom from top = <span id = "bbft"></span></p>
+	</div>
+
+<div id='bigbottom'></div>
+
+</body>
+</html>
+
+<script>
+		  var serv_distance = $('#services').offset().top, 
+		  services_height = $('#services h2').outerHeight(),
+		  $window = $(window);
+	  	
+			console.log(serv_distance);	
+
+		  $window.scroll(function() {
+			  	
+			$('#bst').html($window.scrollTop());				  
+			$('#sfs').html( $window.scrollTop() - $('#services').offset().top );				  
+			$('#bbft').html( $window.scrollTop() - $('#bigbottom').offset().top );				  
+
+		  slide_changepoint = ( $window.scrollTop() + 141 );
+		  console.log($window.scrollTop());
+						  
+			  if ( $window.scrollTop() >= serv_distance ) {
+				  $('#services').addClass('fixed');
+				  $('#empty_slide').addClass('fixed');
+			  } else {
+				  $('#services').removeClass('fixed');
+				  $('#empty_slide').removeClass('fixed');
+			  }
+		
+		
+		  $( '.slidefix' ).each(function( index ) {
+  
+			  if ( slide_changepoint >= $(this).offset().top ) {
+				$( '#empty_slide' ).html( $(this).html() );
+				$(this).css('opacity', '0.3');
+			  } else {
+				$(this).removeClass('above');
+			  }
+		  });
+		
+		
+		
+			  				  
+		  });
+</script>		  

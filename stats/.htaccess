@@ -1,0 +1,6 @@
+AuthType Basic
+AuthName " Statistics"
+/web/httpd2/conf/1568/virtualhosts.conf- AuthName "insinerate.com Statistics"
+AuthUserFile /var/chroot/home/content/43/10820843/html/stats/.statspwd
+Require valid-user
+DirectoryIndex index.html

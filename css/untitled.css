@@ -1,0 +1,253 @@
+@charset "UTF-8";
+body {
+	background-color: #000000;
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+	background-image: url(../images/12px-off.png);
+}
+a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+a:hover {
+	text-decoration: none;
+	color: #FF0000;
+}
+a:active {
+	text-decoration: none;
+}
+#container {
+	height: 800px;
+	width: 640px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	color: #FFFFFF;
+	position: relative;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.pearl {
+	background-image: url(../images/pearl.png);
+}
+#svg_holder {
+	position: absolute;
+	top: 0px;
+}
+#text_holder {
+	height: 156px;
+	width: 320px;
+	z-index: 9999;
+	position: absolute;
+	top: 196px;
+	color: #FFFFFF;
+	left: 155px;
+}
+h1 {
+	font-size: 50px;
+	font-weight: bold;
+	line-height: 1em;
+	margin-top: 20px;
+}
+h3 {
+	color: #FFFFFF;
+	font-size: 12pt;
+	font-weight: bold;
+	line-height: 12pt;
+}
+h2 {
+	font-size: 55px;
+	font-weight: bold;
+}
+#heading {
+	font-family: Helvetica, sans-serif;
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	color: #FFFFFF;
+	margin-bottom: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#heading h2 {
+	display: inline-block;
+	font-size: 30px;
+}
+.linkedin {
+	display: inline-block;
+	float: right;
+	height: 50px;
+	width: 200px;
+	margin-top: 25px;
+}
+h4 {
+	font-size: 120px;
+	font-weight: bold;
+	padding: 0px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	line-height: 1em;
+}
+h5 {
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 0px;
+	line-height: 1em;
+	margin-bottom: 5px;
+}
+.input {
+	color: #FF0000;
+	font-weight: bold;
+	text-align: left;
+	font-family: 'Cinzel', serif;
+	height: 20px;
+	padding-top: 10px;
+	white-space: normal;
+	margin: 0;
+	overflow: hidden;
+}
+.input:hover {
+	background-color: #FFFFFF;
+}
+.red {
+	color: #FF0000;
+}
+#big {
+	z-index: 9999;
+	padding-top: 9px;
+	position: absolute;
+	top: 58px;
+	margin-left:-4px;
+
+}
+#thevalue {
+	position: absolute;
+	top: 145px;
+	right: 50%;
+	width: 330px;
+	margin-right:-160px;
+}
+.submit_sin {
+	position: absolute;
+	top: 190px;
+	right: 127px;
+	background-image: url(../images/go_button_circle_off.png);
+	height: 60px;
+	width: 60px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding-top: 5px;
+	padding-left:0px;
+	padding-right:0px;
+	padding-bottom: 0px;
+	background-color: #000000;
+	font-weight: normal;
+	color: #FFFFFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	margin: 0;
+}
+.submit_sin_invisible {
+	display: none;
+}
+.submit_sin:link {
+	font-weight: normal;
+}
+.submit_sin:hover {
+	font-weight: normal;
+	background-image: url(../images/go_button_circle.png);
+}
+#one {
+	z-index: 9999;
+}
+#secretBtn3 {
+	height: 41px;
+	width: 61px;
+	border: thick solid #00CCFF;
+	position: absolute;
+	top: 200px;
+	right: 127px;
+	z-index: 9999;
+}
+
+.secretBtn {
+	position: absolute;
+	top: 210px;
+	right: 127px;
+	background-image: url(../images/button_circle_off.png);
+	height: 41px;
+	width: 61px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding-top: 20px;
+	z-index: 9999;
+
+}
+.secretBtn:hover {
+	text-decoration:none;
+	background-image: url(../images/button_circle.png);
+}
+#credit {
+	font-size: 12px;
+	color: #333333;
+	margin-right: auto;
+	margin-left: auto;
+	width: 620px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+#credit a:link {
+	color: #333333;
+	text-decoration: none;
+}
+#credit a:visited {
+	text-decoration: none;
+	color: #333333;
+}
+#credit a:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#pray{
+	position: absolute;
+	top: 210px;
+	right: 158px;
+	height: 41px;
+	width: 61px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding-top: 20px;
+}
+.steps {
+	position: relative;
+	top: -60px;
+}
+.questions {
+	position: relative;
+	top: -48px;
+}
+.choose {
+	position: relative;
+	top: -48px;
+}
+.charity {
+	position: relative;
+	top: -48px;
+}
