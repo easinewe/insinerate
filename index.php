@@ -8,7 +8,7 @@
 
 <meta name="description" content="Absolve your sins quickly and anonymously with our Rosary App.  Find the right charity for your sin.">
 <meta name="keywords" content="Rosary, Sin , Catholic Sin, Hail Mary, charities, charity finder, Catholic Guilt, Redemption from Sin, Absolution">
-<meta name="author" content="Eamonn Fitzmaurice">
+<meta name="author" content="Eamonn Patrick Fitzmaurice">
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <script type="text/javascript" src="js/formToWizard.js"></script>
